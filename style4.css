@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+margin: 20px;
+}
+h1 {
+    color: #0d8431;
+    size: 30px;
+}
+
+form  {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teste {
+    
+    
+    background-color: white;
+    padding: 30PX;
+    border-radius: 20px;
+    width: 300px;
+gap: 4px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+button {
+    background-color: #0d8431;
+   color: white;
+   padding: 5px 50PX;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#telefone {
+    color: #0d8431;
+    background-color: #f0f8ff; 
+    border: 2px solid #4CAF50; 
+    padding: 2px;
+    border-radius: 8px;
+}
+
+.footer {
+color: black;
+ display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
