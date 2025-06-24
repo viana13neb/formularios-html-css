@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+margin: 20px;
+
+}
+
+
+form  {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ gap: 12px;
+
+    padding: 60px;
+    border: 1px solid #2b2b2b ;
+    border-radius: 80px;
+
+}
+button:hover {
+
+    color: blue;
+    transition: 500ms;
+}
